@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/splash"
+    android:layout_height="match_parent"
+    tools:context="com.hq.job.Splash">
+
+    <Button
+        android:id="@+id/join"
+        android:layout_width="152dp"
+        android:layout_height="57dp"
+        android:background="@drawable/reg"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="507dp"
+        android:layout_alignBottom="@+id/login"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_alignTop="@+id/login" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="152dp"
+        android:background="@drawable/log"
+        android:layout_height="57dp"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="507dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginStart="23dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/join" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/js"
+        android:layout_marginTop="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

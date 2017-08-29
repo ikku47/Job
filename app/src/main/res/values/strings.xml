@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Job</string>
+    <string-array name="state_array">
+        <item>KERALA</item>
+        <item>TAMIL NADU</item>
+        <item>KARNATAKA</item>
+    </string-array>
+    <string-array name="keralaCities_array">
+        <item>Thiruvananthapuram</item>
+        <item>Kollam</item>
+        <item>Alappuzha</item>
+        <item>Pathanamthitta</item>
+        <item>Kottayam</item>
+        <item>Idukki</item>
+        <item>Ernakulam</item>
+        <item>Thrissur</item>
+        <item>Palakkad</item>
+        <item>Malappuram</item>
+        <item>Kozhikkode</item>
+        <item>Wayanad</item>
+        <item>Kannur</item>
+        <item>Kasaragod</item>
+
+    </string-array>
+    <string-array name="tamilnaduCities_array">
+        <item>Chennai</item>
+        <item>Coimbatore</item>
+        <item>Selam</item>
+    </string-array>
+    <string-array name="karnatakaCities_array">
+        <item>Banglore</item>
+    </string-array>
+
+</resources>
